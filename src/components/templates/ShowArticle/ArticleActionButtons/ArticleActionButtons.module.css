@@ -1,0 +1,7 @@
+.buttons {
+  display: flex;
+}
+
+.buttons > .button:not(:first-child) {
+  margin-left: 4px;
+}
